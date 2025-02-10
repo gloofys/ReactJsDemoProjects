@@ -2,8 +2,8 @@
 // import Todo from "./components/Todo.jsx";
 // import Meals from "./components/Meals.jsx";
 // import Calculator from "./components/Calculator.jsx";
-import ToggleBackgroundColor from "./components/ToggleBackgroundColor.jsx";
-
+// import ToggleBackgroundColor from "./components/ToggleBackgroundColor.jsx";
+import HiddenSearchBar from './components/HiddenSearchBar';
 
 const App = () => {
     return (
@@ -11,7 +11,8 @@ const App = () => {
         // <Todo/>
         // <Meals/>
         // <Calculator/>
-        <ToggleBackgroundColor/>
+        // <ToggleBackgroundColor/>
+        <HiddenSearchBar/>
     )
 }
 export default App
