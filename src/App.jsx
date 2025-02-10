@@ -5,8 +5,9 @@
 // import ToggleBackgroundColor from "./components/ToggleBackgroundColor.jsx";
 // import HiddenSearchBar from './components/HiddenSearchBar';
 // import Testimonials from "./components/Testimonials.jsx";
-import {accordionData} from './utils/content.js'
-import Accordion from "./components/Accordion";
+// import {accordionData} from './utils/content.js'
+// import Accordion from "./components/Accordion";
+import Form from"./components/Form.jsx"
 
 const App = () => {
     return (
@@ -18,12 +19,13 @@ const App = () => {
             {/*// <ToggleBackgroundColor/>*/}
             {/*// <HiddenSearchBar/>*/}
             {/*// <Testimonials/>*/}
-            <div className="accordion">
-                {accordionData.map(({title, content}) => (
-                    // eslint-disable-next-line react/jsx-key
-                    <Accordion title={title} content={content}/>
-                ))}
-            </div>
+            {/*<div className="accordion">*/}
+            {/*    {accordionData.map(({title, content}) => (*/}
+            {/*        // eslint-disable-next-line react/jsx-key*/}
+            {/*        <Accordion title={title} content={content}/>*/}
+            {/*    ))}*/}
+            {/*</div>*/}
+            <Form/>
         </div>
     );
 };
